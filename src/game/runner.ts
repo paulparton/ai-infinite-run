@@ -10,7 +10,7 @@ export class Runner implements IRunner {
     isJumping: boolean = false;
     private gravity = 1200;
     private jumpStrength = -500;
-    private groundY = 80;
+    private groundY = 70;
     private sprite: HTMLImageElement;
 
     constructor(x: number, y: number, width: number, height: number) {
